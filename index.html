@@ -3,23 +3,95 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <title>Teste html</title>
+    <link
+      rel="shortcut icon"
+      href="../imagens/letra-a.png"
+      type="image/x-icon"
+    />
+    <title>Altanio Guedes</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+      h1 {
+        font-family: "Henny Penny", cursive;
+        font-size: 50px;
+        color: cadetblue;
+      }
+      body {
+        background-image: url("../imagens/pexels-codioful-7134988.jpg");
+      }
+      main {
+        text-align: center;
+        align-items: center;
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 15cm;
+        height: 10cm;
+        border: 2px solid cadetblue;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 5px 0px 10px 5px rgba(0, 0, 0, 0.2);
+      }
+      button {
+        background-color: cadetblue;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 15px;
+        width: 3.5cm;
+        font-family: "Henny Penny", cursive;
+        cursor: pointer;
+
+        transition:
+          background-color 0.3s ease,
+          transform 0.2s ease,
+          box-shadow 0.3s ease;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      p {
+        font-family: "Roboto Condensed";
+        text-align: justify;
+        padding-left: 2cm;
+        padding-right: 2cm;
+        color: blueviolet;
+      }
+      .btn-hover:hover {
+        background-color: #45a049;
+        transform: translateY(-3px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      .btn-hover:active {
+        transform: translateY(-1px);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+      }
+    </style>
   </head>
   <body>
     <main>
       <h1>Altanio Guedes</h1>
-      <button class="btn-hover"><a href="https://github.com/GUEDESxt10">Github</a></button>
+      <button class="btn-hover">
+        <a href="https://github.com/GUEDESxt10">Github</a>
+      </button>
       <button class="btn-hover">
         <a href="https://www.instagram.com/altanio.guedes/?__pwa=1"
           >Instagram</a
         >
       </button>
-      <p style="text-align: center;">Olá, eu sou o Altanio Guedes!</p>
+      <p style="text-align: center">Olá, eu sou o Altanio Guedes!</p>
       <p>
         Sou um desenvolvedor web em formação, estou aprendendo a programar em
-        HTML, CSS e JavaScript, cada vez mais evoluindo e aprimorando minhas
-        habilidades.
+        HTML, CSS e JavaScript, cada vez mais evoluindo.
       </p>
     </main>
   </body>
