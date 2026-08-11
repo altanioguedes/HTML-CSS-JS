@@ -3,98 +3,129 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="https://img.icons8.com/?size=48&id=63700&format=png"
-      type="image/x-icon"
-    />
-    <title>Altanio Guedes</title>
+    <title>Altanio Guedes - Caminho para full-stack</title>
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap");
-      @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
-      h1 {
-        font-family: "Henny Penny", cursive;
-        font-size: 50px;
-        color: cadetblue;
+      html {
+        scroll-behavior: smooth;
       }
+
       body {
-        background-image: linear-gradient(45deg,pink,blue);
-        background-attachment: fixed;
+        background-image: linear-gradient(to right, #ffcccc, #ffe6e6);
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
       }
-   
+
+      header {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      header h1 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+      }
+
+      /* Estilizando o link diretamente como botão */
+      .btn-scroll {
+        display: inline-block;
+        background-color: #ffcccc;
+        color: #333;
+        padding: 8px 16px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+      }
+
+      .btn-scroll:hover {
+        background-color: #ff9999;
+        color: white;
+      }
+
+      /* Centralização responsiva com max-width */
+      .intro {
+        max-width: 600px;
+        margin: 20px auto;
+        text-align: justify;
+        border-radius: 10px;
+        background-color: #f2f2f272;
+        padding: 20px;
+      }
+
       main {
         text-align: center;
-        align-items: center;
-        margin-top: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 15cm;
-        height: 10cm;
-        border: 2px solid cadetblue;
-        border-radius: 10px;
-        background-color: rgba(255, 255, 255, 0.5);
-        box-shadow: 5px 0px 10px 5px rgba(0, 0, 0, 0.2);
-      }
-      button {
-        background-color: cadetblue;
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 15px;
-        width: 3.5cm;
-        font-family: "Henny Penny", cursive;
-        cursor: pointer;
-
-        transition:
-          background-color 0.3s ease,
-          transform 0.2s ease,
-          box-shadow 0.3s ease;
       }
       a {
         text-decoration: none;
-        color: white;
+        font-weight: bolder;
       }
-      p {
-        font-family: "Roboto Condensed";
-        text-align: justify;
-        padding-left: 2cm;
-        padding-right: 2cm;
-        color: rgb(31, 114, 117);
-      }
-      .btn-hover:hover {
-        background-color: #45a049;
-        transform: translateY(-3px);
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-      }
-
-      .btn-hover:active {
-        transform: translateY(-1px);
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+      a:hover {
+        color: #ff6666;
       }
     </style>
   </head>
   <body>
+    <header>
+      <h1 style="text-align: center">Meu caminho para me tornar full-stack</h1>
+      <nav><a href="#gg">Rolar para baixo</a></nav>
+    </header>
     <main>
-      <h1>Altanio Guedes</h1>
-      <button class="btn-hover">
-        <a href="https://github.com/GUEDESxt10">Github</a>
-      </button>
-      <button class="btn-hover">
-        <a href="https://www.instagram.com/altanio.guedes/?__pwa=1"
-          >Instagram</a
-        >
-      </button>
-      <p style="text-align: center">Olá, eu sou o Altanio Guedes!</p>
-      <p>
-        Sou um desenvolvedor web em formação, estou aprendendo a programar em
-        HTML, CSS e JavaScript, cada vez mais evoluindo.
-      </p>
+      <section class="intro" id="intro">
+        <h2>Quem eu sou ?</h2>
+        <p>
+          Olá, eu sou Altanio Guedes! tenho 15 anos de idade, estou começando na
+          área de Programação estudando HTML, CSS e JavaScript.
+        </p>
+      </section>
+      <section class="intro">
+        <h2>O que eu quero ?</h2>
+        <p>
+          Eu quero me tornar um desenvolvedor full-stack, e para isso estou
+          estudando HTML, CSS e JavaScript.
+        </p>
+      </section>
+      <section class="intro">
+        <h2>Metas a cumprir</h2>
+        <ul>
+          <li>Aprender HTML, CSS e JavaScript</li>
+          <li>Aprender React</li>
+          <li>Aprender Node.js</li>
+          <li>Aprender banco de dados</li>
+          <li>Aprender a trabalhar em equipe</li>
+        </ul>
+      </section>
+      <section class="intro">
+        <h2>Minhas redes sociais</h2>
+        <nav>
+          <ul>
+            <li>
+              <a href="https://github.com/altanioguedes" target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.reddit.com/user/Known-Ad-8822/"
+                target="_blank"
+                >Reddit</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <aside class="intro">
+        <p>Como alguém importante para mim durante minha jornada dizia:</p>
+        <pre>  <code> if(Esforço+Dedicação == 100%)
+ console.log("Sucesso garantido!"); </code>
+ </pre>
+      </aside>
+      <aside id="gg" class="intro">
+        <p>
+          Vc pode baixar o caminho de estudos que eu estou a usar clicando
+          <a href="../imagens/full-stack.pdf" download>Aqui</a>
+        </p>
+      </aside>
     </main>
   </body>
 </html>
